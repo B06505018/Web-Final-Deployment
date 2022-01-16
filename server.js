@@ -37,3 +37,4 @@ mongo.connect();
 // })
 
 // "start": "node server.js"
+// "start": "nodemon server.js --ext js --exec babel-node"
