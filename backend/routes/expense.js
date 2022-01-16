@@ -1,5 +1,5 @@
 import express from 'express';
-import expenseApi from '../api/expense';
+import expenseApi from '../api/expense.js';
 
 const router = express.Router();
 

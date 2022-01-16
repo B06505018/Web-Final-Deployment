@@ -1,6 +1,6 @@
-import Expense from '../models/Expense';
+import Expense from '../models/Expense.js';
 import mongoose from 'mongoose';
-import extend from 'lodash/extend';
+import extend from 'lodash/extend.js';
 
 const create = async (req, res) => {
     try {
