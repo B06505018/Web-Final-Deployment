@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import Typography from '@material-ui/core/Typography'
 import Divider from '@material-ui/core/Divider'
-import { Link } from 'react-router-dom'
 import { currentMonthPreview, expenseByCategory } from './../expense/api-expense.js'
 
 const useStyles = makeStyles(theme => ({
@@ -122,7 +121,6 @@ export default function Home() {
         <div style={{ margin: '20px 20px 20px 30px' }}>
           <Typography variant="h5" className={classes.spent} color="primary">${expensePreview.today ? expensePreview.today.totalSpent : '0'} <span className={classes.day}>today</span></Typography>
           <Typography variant="h5" className={classes.spent} color="primary">${expensePreview.yesterday ? expensePreview.yesterday.totalSpent : '0'} <span className={classes.day}>yesterday </span></Typography>
-          {/* <Link to="/expenses/all"><Typography variant="h6">See more</Typography></Link> */}
         </div>
       </div>
       <Divider />

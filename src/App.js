@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Home from './core/Home'
-import Menu from './core/Menu'
-import NewExpense from './expense/NewExpense'
-import Expenses from './expense/Expenses'
-import Reports from './report/Reports'
+import Home from './core/Home.js'
+import Menu from './core/Menu.js'
+import NewExpense from './expense/NewExpense.js'
+import Expenses from './expense/Expenses.js'
+import Reports from './report/Reports.js'
 
 
 const App = () => {

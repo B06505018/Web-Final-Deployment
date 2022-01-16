@@ -1,9 +1,9 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import Divider from '@material-ui/core/Divider'
-import CategoryPie from './CategoryPie'
-import YearlyBar from './YearlyBar'
-import MonthlyScatter from './MonthlyScatter'
+import CategoryPie from './CategoryPie.js'
+import YearlyBar from './YearlyBar.js'
+import MonthlyScatter from './MonthlyScatter.js'
 
 const useStyles = makeStyles(theme => ({
   root: {

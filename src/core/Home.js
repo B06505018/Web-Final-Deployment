@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import ExpenseOverview from './../expense/ExpenseOverview'
+import ExpenseOverview from './../expense/ExpenseOverview.js'
 
 const useStyles = makeStyles(theme => ({
   card: {
