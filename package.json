@@ -54,6 +54,10 @@
     ]
   },
   "devDependencies": {
-    "mini-css-extract-plugin": "2.4.5"
+    "mini-css-extract-plugin": "2.4.5",
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7"
   }
 }
